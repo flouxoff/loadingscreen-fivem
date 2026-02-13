@@ -1,0 +1,307 @@
+/* Fonts Configuration for FiveM Loading Screen */
+/* Using system fonts for best performance and compatibility */
+
+/* Primary Font - Main text */
+@font-face {
+  font-family: "PrimaryFont";
+  src:
+    local("Segoe UI"), local("Roboto"), local("Helvetica Neue"), local("Arial"),
+    local("sans-serif");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold Font - Headers and titles */
+@font-face {
+  font-family: "BoldFont";
+  src:
+    local("Segoe UI Bold"), local("Segoe UI"), local("Roboto Bold"),
+    local("Helvetica Neue Bold"), local("Arial Bold"), local("sans-serif");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Light Font - Secondary text */
+@font-face {
+  font-family: "LightFont";
+  src:
+    local("Segoe UI Light"), local("Segoe UI"), local("Roboto Light"),
+    local("Helvetica Neue Light"), local("Arial"), local("sans-serif");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Monospace Font - For code and technical display */
+@font-face {
+  font-family: "MonoFont";
+  src:
+    local("Consolas"), local("Monaco"), local("Courier New"), local("monospace");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Custom Font Variants */
+@font-face {
+  font-family: "CustomFont";
+  src:
+    local("Inter"), local("Poppins"), local("Montserrat"), local("Open Sans"),
+    local("sans-serif");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Font Usage Classes */
+body {
+  font-family:
+    "PrimaryFont", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Font weight utilities */
+.font-thin {
+  font-weight: 100;
+}
+.font-extralight {
+  font-weight: 200;
+}
+.font-light {
+  font-weight: 300;
+}
+.font-regular {
+  font-weight: 400;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-extrabold {
+  font-weight: 800;
+}
+.font-black {
+  font-weight: 900;
+}
+
+/* Font style utilities */
+.font-italic {
+  font-style: italic;
+}
+.font-normal {
+  font-style: normal;
+}
+
+/* Text transform utilities */
+.font-uppercase {
+  text-transform: uppercase;
+}
+.font-lowercase {
+  text-transform: lowercase;
+}
+.font-capitalize {
+  text-transform: capitalize;
+}
+
+/* Text alignment utilities */
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}
+
+/* Letter spacing utilities */
+.font-tighter {
+  letter-spacing: -0.05em;
+}
+.font-tight {
+  letter-spacing: -0.025em;
+}
+.font-normal-spacing {
+  letter-spacing: normal;
+}
+.font-wide {
+  letter-spacing: 0.025em;
+}
+.font-wider {
+  letter-spacing: 0.05em;
+}
+.font-widest {
+  letter-spacing: 0.1em;
+}
+
+/* Line height utilities */
+.leading-none {
+  line-height: 1;
+}
+.leading-tight {
+  line-height: 1.25;
+}
+.leading-snug {
+  line-height: 1.375;
+}
+.leading-normal {
+  line-height: 1.5;
+}
+.leading-relaxed {
+  line-height: 1.625;
+}
+.leading-loose {
+  line-height: 2;
+}
+
+/* Font size utilities (using viewport units for responsiveness) */
+.font-xs {
+  font-size: 0.5vw;
+}
+.font-sm {
+  font-size: 0.6vw;
+}
+.font-base {
+  font-size: 0.75vw;
+}
+.font-lg {
+  font-size: 0.9vw;
+}
+.font-xl {
+  font-size: 1.2vw;
+}
+.font-2xl {
+  font-size: 1.5vw;
+}
+.font-3xl {
+  font-size: 2vw;
+}
+.font-4xl {
+  font-size: 2.5vw;
+}
+.font-5xl {
+  font-size: 3vw;
+}
+
+/* Custom styling for loading screen specific elements */
+.title {
+  font-family: "BoldFont", "Segoe UI Bold", "Roboto Bold", Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.subtitle {
+  font-family: "LightFont", "Segoe UI Light", "Roboto Light", Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.description {
+  font-family: "PrimaryFont", "Segoe UI", "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.loading-text {
+  font-family: "MonoFont", "Consolas", "Courier New", monospace;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+}
+
+/* Neon/glow text effect */
+.text-glow {
+  text-shadow:
+    0 0 5px rgba(174, 0, 255, 0.8),
+    0 0 10px rgba(174, 0, 255, 0.6),
+    0 0 20px rgba(174, 0, 255, 0.4),
+    0 0 40px rgba(174, 0, 255, 0.2);
+}
+
+.text-glow-cyan {
+  text-shadow:
+    0 0 5px rgba(0, 255, 255, 0.8),
+    0 0 10px rgba(0, 255, 255, 0.6),
+    0 0 20px rgba(0, 255, 255, 0.4),
+    0 0 40px rgba(0, 255, 255, 0.2);
+}
+
+/* Gradient text effect */
+.text-gradient {
+  background: linear-gradient(135deg, #ae00ff 0%, #00ffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Animation for loading dots */
+.loading-dots::after {
+  content: "";
+  animation: dots 1.5s steps(5, end) infinite;
+}
+
+@keyframes dots {
+  0%,
+  20% {
+    content: "";
+  }
+  40% {
+    content: ".";
+  }
+  60% {
+    content: "..";
+  }
+  80%,
+  100% {
+    content: "...";
+  }
+}
+
+/* Pulse animation for text */
+.text-pulse {
+  animation: text-pulse 2s ease-in-out infinite;
+}
+
+@keyframes text-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Skewed text effect (for titles) */
+.text-skew {
+  transform: skew(-10deg, 0deg);
+}
+
+/* Clip path for decorative text backgrounds */
+.text-bg-clip {
+  position: relative;
+  display: inline-block;
+}
+
+.text-bg-clip::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -5%;
+  width: 110%;
+  height: 100%;
+  background: rgba(174, 0, 255, 0.2);
+  transform: skew(-20deg, 0deg);
+  z-index: -1;
+}
