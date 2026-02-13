@@ -1,4 +1,4 @@
-# TODO - Améliorations Loading Screen FiveM
+# README - Améliorations Loading Screen FiveM
 
 ## 🎯 Objectif
 
@@ -70,8 +70,3 @@ Créer un loading screen moderne, performant et esthétiquement professionnel to
 - JavaScript modulaire pour une meilleure organisation
 - Compatible avec FiveM
 - Performances optimisées
-
----
-
-Date de création: 2024
-Statut: En attente de validation
